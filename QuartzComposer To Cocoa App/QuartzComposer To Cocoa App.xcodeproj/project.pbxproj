@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99C08B01A2BEC8A00B997F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C08AF1A2BEC8A00B997F5 /* AppDelegate.m */; };
+		C99C08B21A2BEC8A00B997F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C08B11A2BEC8A00B997F5 /* main.m */; };
+		C99C08B41A2BEC8A00B997F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C08B31A2BEC8A00B997F5 /* Images.xcassets */; };
+		C99C08B71A2BEC8A00B997F5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99C08B51A2BEC8A00B997F5 /* MainMenu.xib */; };
+		C99C08C31A2BEC8A00B997F5 /* QuartzComposer_To_Cocoa_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C08C21A2BEC8A00B997F5 /* QuartzComposer_To_Cocoa_AppTests.m */; };
+		C99C08CE1A2BED3C00B997F5 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C08CC1A2BED3C00B997F5 /* Quartz.framework */; };
+		C99C08CF1A2BED3C00B997F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C08CD1A2BED3C00B997F5 /* QuartzCore.framework */; };
+		C99C08D31A2BEF1300B997F5 /* QC Test.qtz in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D11A2BEF1300B997F5 /* QC Test.qtz */; };
+		C99C08D41A2BEF1300B997F5 /* worms.gif in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D21A2BEF1300B997F5 /* worms.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99C08BD1A2BEC8A00B997F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99C08A11A2BEC8A00B997F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99C08A81A2BEC8A00B997F5;
+			remoteInfo = "QuartzComposer To Cocoa App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C99C08A91A2BEC8A00B997F5 /* QuartzComposer To Cocoa App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuartzComposer To Cocoa App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C08AD1A2BEC8A00B997F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99C08AE1A2BEC8A00B997F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C99C08AF1A2BEC8A00B997F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C99C08B11A2BEC8A00B997F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C99C08B31A2BEC8A00B997F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C99C08B61A2BEC8A00B997F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C99C08BC1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuartzComposer To Cocoa AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C08C11A2BEC8A00B997F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99C08C21A2BEC8A00B997F5 /* QuartzComposer_To_Cocoa_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzComposer_To_Cocoa_AppTests.m; sourceTree = "<group>"; };
+		C99C08CC1A2BED3C00B997F5 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		C99C08CD1A2BED3C00B997F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C99C08D11A2BEF1300B997F5 /* QC Test.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "QC Test.qtz"; sourceTree = "<group>"; };
+		C99C08D21A2BEF1300B997F5 /* worms.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = worms.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99C08A61A2BEC8A00B997F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C08CE1A2BED3C00B997F5 /* Quartz.framework in Frameworks */,
+				C99C08CF1A2BED3C00B997F5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C08B91A2BEC8A00B997F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99C08A01A2BEC8A00B997F5 = {
+			isa = PBXGroup;
+			children = (
+				C99C08CC1A2BED3C00B997F5 /* Quartz.framework */,
+				C99C08CD1A2BED3C00B997F5 /* QuartzCore.framework */,
+				C99C08AB1A2BEC8A00B997F5 /* QuartzComposer To Cocoa App */,
+				C99C08BF1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests */,
+				C99C08AA1A2BEC8A00B997F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99C08AA1A2BEC8A00B997F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99C08A91A2BEC8A00B997F5 /* QuartzComposer To Cocoa App.app */,
+				C99C08BC1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99C08AB1A2BEC8A00B997F5 /* QuartzComposer To Cocoa App */ = {
+			isa = PBXGroup;
+			children = (
+				C99C08D01A2BEEEB00B997F5 /* Quartz */,
+				C99C08AE1A2BEC8A00B997F5 /* AppDelegate.h */,
+				C99C08AF1A2BEC8A00B997F5 /* AppDelegate.m */,
+				C99C08B31A2BEC8A00B997F5 /* Images.xcassets */,
+				C99C08B51A2BEC8A00B997F5 /* MainMenu.xib */,
+				C99C08AC1A2BEC8A00B997F5 /* Supporting Files */,
+			);
+			path = "QuartzComposer To Cocoa App";
+			sourceTree = "<group>";
+		};
+		C99C08AC1A2BEC8A00B997F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99C08AD1A2BEC8A00B997F5 /* Info.plist */,
+				C99C08B11A2BEC8A00B997F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99C08BF1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99C08C21A2BEC8A00B997F5 /* QuartzComposer_To_Cocoa_AppTests.m */,
+				C99C08C01A2BEC8A00B997F5 /* Supporting Files */,
+			);
+			path = "QuartzComposer To Cocoa AppTests";
+			sourceTree = "<group>";
+		};
+		C99C08C01A2BEC8A00B997F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99C08C11A2BEC8A00B997F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99C08D01A2BEEEB00B997F5 /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				C99C08D11A2BEF1300B997F5 /* QC Test.qtz */,
+				C99C08D21A2BEF1300B997F5 /* worms.gif */,
+			);
+			name = Quartz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99C08A81A2BEC8A00B997F5 /* QuartzComposer To Cocoa App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99C08C61A2BEC8A00B997F5 /* Build configuration list for PBXNativeTarget "QuartzComposer To Cocoa App" */;
+			buildPhases = (
+				C99C08A51A2BEC8A00B997F5 /* Sources */,
+				C99C08A61A2BEC8A00B997F5 /* Frameworks */,
+				C99C08A71A2BEC8A00B997F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuartzComposer To Cocoa App";
+			productName = "QuartzComposer To Cocoa App";
+			productReference = C99C08A91A2BEC8A00B997F5 /* QuartzComposer To Cocoa App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99C08BB1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99C08C91A2BEC8A00B997F5 /* Build configuration list for PBXNativeTarget "QuartzComposer To Cocoa AppTests" */;
+			buildPhases = (
+				C99C08B81A2BEC8A00B997F5 /* Sources */,
+				C99C08B91A2BEC8A00B997F5 /* Frameworks */,
+				C99C08BA1A2BEC8A00B997F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99C08BE1A2BEC8A00B997F5 /* PBXTargetDependency */,
+			);
+			name = "QuartzComposer To Cocoa AppTests";
+			productName = "QuartzComposer To Cocoa AppTests";
+			productReference = C99C08BC1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99C08A11A2BEC8A00B997F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MCM;
+				TargetAttributes = {
+					C99C08A81A2BEC8A00B997F5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C99C08BB1A2BEC8A00B997F5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C99C08A81A2BEC8A00B997F5;
+					};
+				};
+			};
+			buildConfigurationList = C99C08A41A2BEC8A00B997F5 /* Build configuration list for PBXProject "QuartzComposer To Cocoa App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99C08A01A2BEC8A00B997F5;
+			productRefGroup = C99C08AA1A2BEC8A00B997F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99C08A81A2BEC8A00B997F5 /* QuartzComposer To Cocoa App */,
+				C99C08BB1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99C08A71A2BEC8A00B997F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C08B41A2BEC8A00B997F5 /* Images.xcassets in Resources */,
+				C99C08D41A2BEF1300B997F5 /* worms.gif in Resources */,
+				C99C08B71A2BEC8A00B997F5 /* MainMenu.xib in Resources */,
+				C99C08D31A2BEF1300B997F5 /* QC Test.qtz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C08BA1A2BEC8A00B997F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99C08A51A2BEC8A00B997F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C08B21A2BEC8A00B997F5 /* main.m in Sources */,
+				C99C08B01A2BEC8A00B997F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C08B81A2BEC8A00B997F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C08C31A2BEC8A00B997F5 /* QuartzComposer_To_Cocoa_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99C08BE1A2BEC8A00B997F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99C08A81A2BEC8A00B997F5 /* QuartzComposer To Cocoa App */;
+			targetProxy = C99C08BD1A2BEC8A00B997F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C99C08B51A2BEC8A00B997F5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99C08B61A2BEC8A00B997F5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99C08C41A2BEC8A00B997F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C99C08C51A2BEC8A00B997F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C99C08C71A2BEC8A00B997F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QuartzComposer To Cocoa App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C99C08C81A2BEC8A00B997F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QuartzComposer To Cocoa App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C99C08CA1A2BEC8A00B997F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuartzComposer To Cocoa AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzComposer To Cocoa App.app/Contents/MacOS/QuartzComposer To Cocoa App";
+			};
+			name = Debug;
+		};
+		C99C08CB1A2BEC8A00B997F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuartzComposer To Cocoa AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzComposer To Cocoa App.app/Contents/MacOS/QuartzComposer To Cocoa App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99C08A41A2BEC8A00B997F5 /* Build configuration list for PBXProject "QuartzComposer To Cocoa App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C08C41A2BEC8A00B997F5 /* Debug */,
+				C99C08C51A2BEC8A00B997F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99C08C61A2BEC8A00B997F5 /* Build configuration list for PBXNativeTarget "QuartzComposer To Cocoa App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C08C71A2BEC8A00B997F5 /* Debug */,
+				C99C08C81A2BEC8A00B997F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C99C08C91A2BEC8A00B997F5 /* Build configuration list for PBXNativeTarget "QuartzComposer To Cocoa AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C08CA1A2BEC8A00B997F5 /* Debug */,
+				C99C08CB1A2BEC8A00B997F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99C08A11A2BEC8A00B997F5 /* Project object */;
+}
