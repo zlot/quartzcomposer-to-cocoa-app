@@ -16,6 +16,7 @@
 		C99C08CF1A2BED3C00B997F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C08CD1A2BED3C00B997F5 /* QuartzCore.framework */; };
 		C99C08D31A2BEF1300B997F5 /* QC Test.qtz in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D11A2BEF1300B997F5 /* QC Test.qtz */; };
 		C99C08D41A2BEF1300B997F5 /* worms.gif in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D21A2BEF1300B997F5 /* worms.gif */; };
+		C99C08D61A2BF84700B997F5 /* QC With Syphon.qtz in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D51A2BF84700B997F5 /* QC With Syphon.qtz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		C99C08CD1A2BED3C00B997F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C99C08D11A2BEF1300B997F5 /* QC Test.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "QC Test.qtz"; sourceTree = "<group>"; };
 		C99C08D21A2BEF1300B997F5 /* worms.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = worms.gif; sourceTree = "<group>"; };
+		C99C08D51A2BF84700B997F5 /* QC With Syphon.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "QC With Syphon.qtz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		C99C08D01A2BEEEB00B997F5 /* Quartz */ = {
 			isa = PBXGroup;
 			children = (
+				C99C08D51A2BF84700B997F5 /* QC With Syphon.qtz */,
 				C99C08D11A2BEF1300B997F5 /* QC Test.qtz */,
 				C99C08D21A2BEF1300B997F5 /* worms.gif */,
 			);
@@ -217,6 +220,7 @@
 				C99C08D41A2BEF1300B997F5 /* worms.gif in Resources */,
 				C99C08B71A2BEC8A00B997F5 /* MainMenu.xib in Resources */,
 				C99C08D31A2BEF1300B997F5 /* QC Test.qtz in Resources */,
+				C99C08D61A2BF84700B997F5 /* QC With Syphon.qtz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
