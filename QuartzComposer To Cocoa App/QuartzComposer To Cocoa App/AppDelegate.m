@@ -32,7 +32,7 @@
     [self.window.contentView addConstraints:
      [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[qcView]|" options:0 metrics:nil views:views]];
     
-    if(![qcView loadCompositionFromFile:[[NSBundle mainBundle] pathForResource:@"QC With Syphon" ofType:@"qtz"]])
+    if(![qcView loadCompositionFromFile:[[NSBundle mainBundle] pathForResource:@"QC Example" ofType:@"qtz"]])
     {
         NSLog(@"Quartz Composition failed to load.");
         [NSApp terminate:nil];

@@ -14,9 +14,9 @@
 		C99C08C31A2BEC8A00B997F5 /* QuartzComposer_To_Cocoa_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C08C21A2BEC8A00B997F5 /* QuartzComposer_To_Cocoa_AppTests.m */; };
 		C99C08CE1A2BED3C00B997F5 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C08CC1A2BED3C00B997F5 /* Quartz.framework */; };
 		C99C08CF1A2BED3C00B997F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C08CD1A2BED3C00B997F5 /* QuartzCore.framework */; };
-		C99C08D31A2BEF1300B997F5 /* QC Test.qtz in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D11A2BEF1300B997F5 /* QC Test.qtz */; };
+		C99C08D31A2BEF1300B997F5 /* QC Example.qtz in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D11A2BEF1300B997F5 /* QC Example.qtz */; };
 		C99C08D41A2BEF1300B997F5 /* worms.gif in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D21A2BEF1300B997F5 /* worms.gif */; };
-		C99C08D61A2BF84700B997F5 /* QC With Syphon.qtz in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D51A2BF84700B997F5 /* QC With Syphon.qtz */; };
+		C99C08D61A2BF84700B997F5 /* QC Example With Syphon.qtz in Resources */ = {isa = PBXBuildFile; fileRef = C99C08D51A2BF84700B997F5 /* QC Example With Syphon.qtz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +30,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C99C08A91A2BEC8A00B997F5 /* QuartzComposer To Cocoa App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuartzComposer To Cocoa App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C08A91A2BEC8A00B997F5 /* QuartzComposer To Cocoa App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "QuartzComposer To Cocoa App.app"; path = "/Users/zlot/code/osx/quartzcomposer-to-cocoa-app/QuartzComposer To Cocoa App/build/Debug/QuartzComposer To Cocoa App.app"; sourceTree = "<absolute>"; };
 		C99C08AD1A2BEC8A00B997F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99C08AE1A2BEC8A00B997F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C99C08AF1A2BEC8A00B997F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C99C08B11A2BEC8A00B997F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C99C08B31A2BEC8A00B997F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C99C08B61A2BEC8A00B997F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		C99C08BC1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuartzComposer To Cocoa AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C08BC1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "QuartzComposer To Cocoa AppTests.xctest"; path = "/Users/zlot/code/osx/quartzcomposer-to-cocoa-app/QuartzComposer To Cocoa App/build/Debug/QuartzComposer To Cocoa AppTests.xctest"; sourceTree = "<absolute>"; };
 		C99C08C11A2BEC8A00B997F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99C08C21A2BEC8A00B997F5 /* QuartzComposer_To_Cocoa_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzComposer_To_Cocoa_AppTests.m; sourceTree = "<group>"; };
 		C99C08CC1A2BED3C00B997F5 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		C99C08CD1A2BED3C00B997F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C99C08D11A2BEF1300B997F5 /* QC Test.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "QC Test.qtz"; sourceTree = "<group>"; };
+		C99C08D11A2BEF1300B997F5 /* QC Example.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "QC Example.qtz"; sourceTree = "<group>"; };
 		C99C08D21A2BEF1300B997F5 /* worms.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = worms.gif; sourceTree = "<group>"; };
-		C99C08D51A2BF84700B997F5 /* QC With Syphon.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "QC With Syphon.qtz"; sourceTree = "<group>"; };
+		C99C08D51A2BF84700B997F5 /* QC Example With Syphon.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "QC Example With Syphon.qtz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,17 +74,7 @@
 				C99C08CD1A2BED3C00B997F5 /* QuartzCore.framework */,
 				C99C08AB1A2BEC8A00B997F5 /* QuartzComposer To Cocoa App */,
 				C99C08BF1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests */,
-				C99C08AA1A2BEC8A00B997F5 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		C99C08AA1A2BEC8A00B997F5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C99C08A91A2BEC8A00B997F5 /* QuartzComposer To Cocoa App.app */,
-				C99C08BC1A2BEC8A00B997F5 /* QuartzComposer To Cocoa AppTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C99C08AB1A2BEC8A00B997F5 /* QuartzComposer To Cocoa App */ = {
@@ -129,8 +119,8 @@
 		C99C08D01A2BEEEB00B997F5 /* Quartz */ = {
 			isa = PBXGroup;
 			children = (
-				C99C08D51A2BF84700B997F5 /* QC With Syphon.qtz */,
-				C99C08D11A2BEF1300B997F5 /* QC Test.qtz */,
+				C99C08D51A2BF84700B997F5 /* QC Example With Syphon.qtz */,
+				C99C08D11A2BEF1300B997F5 /* QC Example.qtz */,
 				C99C08D21A2BEF1300B997F5 /* worms.gif */,
 			);
 			name = Quartz;
@@ -201,7 +191,7 @@
 				Base,
 			);
 			mainGroup = C99C08A01A2BEC8A00B997F5;
-			productRefGroup = C99C08AA1A2BEC8A00B997F5 /* Products */;
+			productRefGroup = C99C08A01A2BEC8A00B997F5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -219,8 +209,8 @@
 				C99C08B41A2BEC8A00B997F5 /* Images.xcassets in Resources */,
 				C99C08D41A2BEF1300B997F5 /* worms.gif in Resources */,
 				C99C08B71A2BEC8A00B997F5 /* MainMenu.xib in Resources */,
-				C99C08D31A2BEF1300B997F5 /* QC Test.qtz in Resources */,
-				C99C08D61A2BF84700B997F5 /* QC With Syphon.qtz in Resources */,
+				C99C08D31A2BEF1300B997F5 /* QC Example.qtz in Resources */,
+				C99C08D61A2BF84700B997F5 /* QC Example With Syphon.qtz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +416,7 @@
 				C99C08C81A2BEC8A00B997F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99C08C91A2BEC8A00B997F5 /* Build configuration list for PBXNativeTarget "QuartzComposer To Cocoa AppTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +425,7 @@
 				C99C08CB1A2BEC8A00B997F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
